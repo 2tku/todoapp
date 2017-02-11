@@ -3,6 +3,7 @@
     package="com.example.thuattq1.todoapp">
 
     <application
+        android:name="com.example.thuattq1.global.GlobalInfo"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

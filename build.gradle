@@ -9,12 +9,17 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
+        // Add android-apt plugin
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        // Add repo for DBFlow3
+        maven { url "https://jitpack.io" }
     }
 }
 
